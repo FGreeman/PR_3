@@ -25,6 +25,7 @@ extern "C" void __stdcall GNFunc()
     std::cout << GroupName;
 }
 
+// hello
 extern "C" void __stdcall NSFunc(char* PNS)
 {
     while (*PNS != '\0') {
